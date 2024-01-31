@@ -21,8 +21,10 @@ Features:
 ## Dependency 依赖
 
 - FFmpeg, **请先自行安装**
+
   > windows: 请到 [FFmpeg官网](https://ffmpeg.org/download.html) 下载安装包, 自行安装
-  > MacOS: homebrew 安装 ` brew install ffmpeg`
+  >
+  > MacOS: 使用homebrew 安装 `brew install ffmpeg`
   >
 - pyhton 依赖
   `pip install -r ./requirements.txt`
@@ -40,6 +42,15 @@ Features:
 ## Log Example 日志示例
 
 ![](https://anmy-md.oss-cn-guangzhou.aliyuncs.com/imgs/2024%2F20240131-5ccfe66a0a7cbbd2e7a147067e83ca05.webp)
+
+## TODO
+
+* [ ] 手动删除缩略图, 自动检测删除对应源文件
+* [ ] 不等间隔, 支持按权重取帧数(某段取更多帧)
+* [ ] 成功, 失败, 重复, 未处理文件 --> 计数
+* [ ] 更多文件类型支持
+* [ ] 编写GUI
+* [ ] 添加水印, 取帧加时间进度条
 
 ## Related Efforts 相关项目
 
